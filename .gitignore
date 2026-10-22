@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Configuration (Security Requirement: Keep real secrets private)
+.env
+server/.env
+*.env
+!server/.env.example
+
+# Build Outputs
+dist/
+client/dist/
+build/
+
+# Logs & Runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
